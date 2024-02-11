@@ -18,7 +18,7 @@ function HistoryProfile() {
           </p>
         </div>
         <div className="mt-20">
-          <button className="for-button hover:scale-95 duration-300 bg-gradient-to-r px-24 py-2 from-yellow-200 to-yellow-400 rounded-full">
+          <button className="for-button hover:scale-95 duration-300 bg-gradient-to-r px-24 py-2 from-yellow-200 to-yellow-600 rounded-full">
             <a href="#">
               <img src={basket} alt=".." width={20} />
             </a>

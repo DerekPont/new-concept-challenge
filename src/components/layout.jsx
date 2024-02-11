@@ -4,6 +4,8 @@ import GlassmorpishmSection from "./line1/Glassmorpishm";
 import BoxSearch from "./line1/BoxSeach";
 import TaskSection from "./line2/Task";
 import HistorySection from "./line2/HistoryProfile";
+import CookiesSection from "./line2/Cookies";
+import CardTimelineSection from "./line3/Cardtimeline";
 
 function layout() {
   return (
@@ -38,7 +40,9 @@ function layout() {
               <div className="h-[250px] w-[250px] bg-[#171717] rounded-3xl">
                 <TaskSection></TaskSection>
               </div>
-              <div className="h-[50px] mt-5 w-[250px] bg-[#171717] rounded-xl"></div>
+              <div className="h-[50px] mt-5 w-[250px] bg-[#171717] rounded-xl">
+                <CookiesSection></CookiesSection>
+              </div>
             </div>
             <div className="h-[320px] w-[250px] bg-[#171717] rounded-3xl">
               <HistorySection></HistorySection>
@@ -49,7 +53,9 @@ function layout() {
         <div className="flex justify-center gap-5">
           <div className="w-[250px] h-[300px] bg-[#171717] rounded-3xl"></div>
           <div className="-mt-44">
-            <div className="w-[520px] bg-[#171717] rounded-3xl h-[300px]"></div>
+            <div className="w-[520px] bg-[#171717] rounded-3xl h-[300px]">
+              <CardTimelineSection></CardTimelineSection>
+            </div>
           </div>
         </div>
         {/* // line 4 */}
