@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .container {
+      display: flex;
+    }
+
+    .box {
+      width: 100px;
+      height: 100px;
+      margin: 10px;
+      background-color: #ccc;
+      transition: filter 0.3s ease-in-out;
+    }
+
+    .box1:hover ~ .box2,
+    .box1:hover ~ .box3,
+    .box2:hover ~ .box1,
+    .box2:hover ~ .box3 {
+      filter: blur(2px);
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="box box1">Box 1</div>
+      <div class="box box2">Box 2</div>
+      <div class="box box3">Box 3</div>
+    </div>
+  </body>
+</html>

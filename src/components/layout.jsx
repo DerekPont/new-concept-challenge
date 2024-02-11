@@ -17,34 +17,34 @@ function layout() {
       {/* // Line 1 */}
       <div className="grid gap-5 mt-20">
         <div className="flex justify-center gap-5">
-          <div className=" shadow-sm w-[250px] h-[430px] bg-[#171717] rounded-3xl">
+          <div className=" shadow-sm w-[250px] h-[430px] hover:scale-105 duration-500  bg-[#171717] rounded-3xl">
             <HeroSection></HeroSection>
           </div>
           <div className="card-grid">
-            <div className="w-[250px] h-[250px] shadow-sm bg-[#171717] rounded-3xl">
+            <div className="w-[250px] h-[250px] hover:scale-105 duration-500 shadow-sm bg-[#171717] rounded-3xl">
               <SocialMediaSection></SocialMediaSection>
             </div>
-            <div className="w-[250px] mt-5 h-[90px] shadow-sm bg-[#171717] rounded-2xl">
+            <div className="w-[250px] mt-5 h-[90px] hover:scale-105 duration-500 shadow-sm bg-[#171717] rounded-2xl">
               <BoxSearch></BoxSearch>
             </div>
           </div>
-          <div className="w-[250px] h-[360px] rounded-3xl bg-[#171717]">
+          <div className="w-[250px] h-[360px] hover:scale-105 duration-500 rounded-3xl bg-[#171717]">
             <GlassmorpishmSection></GlassmorpishmSection>
           </div>
         </div>
         {/* // line 2 */}
         <div className="flex justify-center gap-5">
-          <div className="shadow-sm w-[250px] h-[430px] bg-[#171717] rounded-3xl"></div>
+          <div className="shadow-sm w-[250px] h-[430px] hover:scale-105 duration-500 bg-[#171717] rounded-3xl"></div>
           <div className="flex gap-5 -mt-[70px]">
             <div className="card-grid">
-              <div className="h-[250px] w-[250px] bg-[#171717] rounded-3xl">
+              <div className="h-[250px] w-[250px] hover:scale-105 duration-500 bg-[#171717] rounded-3xl">
                 <TaskSection></TaskSection>
               </div>
-              <div className="h-[50px] mt-5 w-[250px] bg-[#171717] rounded-xl">
+              <div className="h-[50px] mt-5 w-[250px] hover:scale-105 duration-500 bg-[#171717] rounded-xl">
                 <CookiesSection></CookiesSection>
               </div>
             </div>
-            <div className="h-[320px] w-[250px] bg-[#171717] rounded-3xl">
+            <div className="h-[320px] w-[250px] hover:scale-105 duration-500 bg-[#171717] rounded-3xl">
               <HistorySection></HistorySection>
             </div>
           </div>
