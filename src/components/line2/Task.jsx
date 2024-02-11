@@ -12,7 +12,7 @@ function Task() {
               <div className="line-gradient w-1 h-12 rounded-3xl bg-gradient-to-b from-sky-300 to-blue-500"></div>
               <div className="grid">
                 <h3 className="font-medium text-sm text-gray-200">Eat Ayam</h3>
-                <p className="text-[11px] mt-1 text-gray-400">home kitchen</p>
+                <p className="text-[10px] mt-1 text-gray-400">home kitchen</p>
               </div>
             </div>
             <div className="time">

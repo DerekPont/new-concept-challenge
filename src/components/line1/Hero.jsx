@@ -12,7 +12,7 @@ function Hero() {
           <div className="desk-content px-4 py-4 relative bg-[#171717] h-20 -mt-20">
             <div>
               <h3 className="text-lg text-gray-200 font-semibold">Zeeta</h3>
-              <p className="text-[10px] mt-1 text-gray-200">I am Zeeta Frontend Website Developer</p>
+              <p className="text-[10px] mt-1 text-gray-400">I am Zeeta Frontend Website Developer</p>
             </div>
             <div className="ratting">
               <p className="text-sm mt-10 text-gray-400">Ratting 4.90</p>
