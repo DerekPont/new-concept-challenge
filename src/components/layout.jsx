@@ -3,6 +3,7 @@ import SocialMediaSection from "./line1/SocialMedia";
 import GlassmorpishmSection from "./line1/Glassmorpishm";
 import BoxSearch from "./line1/BoxSeach";
 import TaskSection from "./line2/Task";
+import HistorySection from "./line2/HistoryProfile";
 
 function layout() {
   return (
@@ -39,7 +40,9 @@ function layout() {
               </div>
               <div className="h-[50px] mt-5 w-[250px] bg-[#171717] rounded-xl"></div>
             </div>
-            <div className="h-[320px] w-[250px] bg-[#171717] rounded-3xl"></div>
+            <div className="h-[320px] w-[250px] bg-[#171717] rounded-3xl">
+              <HistorySection></HistorySection>
+            </div>
           </div>
         </div>
         {/* // line 3 */}
