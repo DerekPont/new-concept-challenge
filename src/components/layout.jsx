@@ -52,7 +52,7 @@ function layout() {
         </div>
         {/* // line 3 */}
         <div className="flex justify-center gap-5">
-          <div className="w-[250px] h-[300px] bg-[#171717] rounded-3xl">
+          <div className="w-[250px] h-[300px] bg-[#171717] hover:scale-105 duration-300 rounded-3xl">
             <GitHubProfileSection></GitHubProfileSection>
           </div>
           <div className="-mt-44">
