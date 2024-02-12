@@ -6,6 +6,7 @@ import TaskSection from "./line2/Task";
 import HistorySection from "./line2/HistoryProfile";
 import CookiesSection from "./line2/Cookies";
 import CardTimelineSection from "./line3/Cardtimeline";
+import GitHubProfileSection from "./line4/GitHubProfile";
 
 function layout() {
   return (
@@ -51,7 +52,9 @@ function layout() {
         </div>
         {/* // line 3 */}
         <div className="flex justify-center gap-5">
-          <div className="w-[250px] h-[300px] bg-[#171717] rounded-3xl"></div>
+          <div className="w-[250px] h-[300px] bg-[#171717] rounded-3xl">
+            <GitHubProfileSection></GitHubProfileSection>
+          </div>
           <div className="-mt-44">
             <div className="w-[520px] bg-[#171717] rounded-3xl h-[300px]">
               <CardTimelineSection></CardTimelineSection>
