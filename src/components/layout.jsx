@@ -1,14 +1,3 @@
-import HeroSection from "./line1/Hero";
-import SocialMediaSection from "./line1/SocialMedia";
-import GlassmorpishmSection from "./line1/Glassmorpishm";
-import BoxSearch from "./line1/BoxSeach";
-import TaskSection from "./line2/Task";
-import HistorySection from "./line2/HistoryProfile";
-import CookiesSection from "./line2/Cookies";
-import CardTimelineSection from "./line3/Cardtimeline";
-import GitHubProfileSection from "./line3/GitHubProfile";
-import FavoriteSection from "./line4/Favorite";
-
 function layout() {
   return (
     <coloums-content>
@@ -88,4 +77,15 @@ function layout() {
     </coloums-content>
   );
 }
+
+import HeroSection from "./line1/Hero";
+import SocialMediaSection from "./line1/SocialMedia";
+import GlassmorpishmSection from "./line1/Glassmorpishm";
+import BoxSearch from "./line1/BoxSeach";
+import TaskSection from "./line2/Task";
+import HistorySection from "./line2/HistoryProfile";
+import CookiesSection from "./line2/Cookies";
+import CardTimelineSection from "./line3/Cardtimeline";
+import GitHubProfileSection from "./line3/GitHubProfile";
+import FavoriteSection from "./line4/Favorite";
 export default layout;
